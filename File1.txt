@@ -1,3 +1,31 @@
-File1 vare här
-Ändrar i File1.
+#include <thread>
+#include <functional>
 
+struct S
+{
+void foo(int a) {(void)a;}
+};
+
+template <class F, class ... Args>
+void wrapper(F&& f, Args&&... args)
+{
+// do things before
+std::invoke(f, args...);
+}
+
+int main()
+{
+S s;
+const auto func = [&](){wrapper(&S::foo, s, 1);};
+auto t = std::thread(func);
+t.join();
+return 0;
+}
+
+
+
+void foo(int a)
+	{
+		(void)a;
+		cout << __FUNCTION__ << endl;
+	}
