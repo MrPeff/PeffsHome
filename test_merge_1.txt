@@ -1,0 +1,8 @@
+I 2015-09-08 10:51:52.586 CMbusOLUhandlerInternal::prepareForOLUPrimary: 1 PM STO created successfully.
+I 2015-09-08 10:51:52.588 OLUSession::ChangeState: current = OLUTargetsReadyForUpgradeState, NewState = OLUDownloadConfApplState
+I 2015-09-08 10:51:56.139 PETER WaitSync kollar moduler, 0x508A 0x5FFF 0x40080211 0x40380211
+W 2015-09-08 10:51:56.727 A/E Burst: Prevented 1 alarms & events from being printed in the log, refer to an OPC AE client for more info.
+W 2015-09-08 10:52:04.292 Unit= 1 Controller_1   ||CON_0000_See_HWTree_Error_{1}\16#00000000 16#40000000
+W 2015-09-08 10:52:04.293 On Unit= 1 HWError Controller_1   ||CON_0000_See_HWTree_Error_{1}\16#000e0000 16#42000204
+I 2015-09-08 10:52:09.898 PETER WaitSync kollar moduler, 0x508A 0x508A 0x40080211 0x40380211
+I 2015-09-08 10:53:01.808 TransferStaticStates cmd

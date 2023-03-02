@@ -1,0 +1,15 @@
+I 2015-09-08 10:52:55.925  CPhConfig_Facade1* : 0x11484e4 added to list
+I 2015-09-08 10:52:55.952 CreateConnection Stop 3 [0.11.12] raise:1 took 22503 us Stop-Start: 22515 us.
+I 2015-09-08 10:52:55.955 CMbusOLUhandlerInternal::prepareForOLUTrainee
+W 2015-09-08 10:52:55.956 initModulebusSMDrv::SM driver at position 1 failed to attach
+I 2015-09-08 10:52:55.957 initModulebusSMDrv::Successfully opened SM driver at position 7
+I 2015-09-08 10:52:55.957 PETER Trigg start. addr m_pTriggCRC: 0x40800204 0x4000000
+I 2015-09-08 10:52:56.950 PETER WaitCRC kollar moduler, 0x0 0x508A 0x40080211 0x40380211
+I 2015-09-08 10:52:56.950 PETER WaitCRC end, cnt: 0 0x40
+I 2015-09-08 10:52:56.951 PETER WaitCRC, CRC: 0x40800214 0x495A2D2B
+I 2015-09-08 10:52:56.951 PETER trigg diff: 320
+I 2015-09-08 10:52:56.952 CMbusOLUhandlerInternal::prepareForOLUTrainee mbus root found and associated to with success
+I 2015-09-08 10:52:56.952 CMbusOLUhandlerInternal::prepareForOLUTrainee 1 objects in I/O list and also on tmp mirrored heap
+I 2015-09-08 10:52:56.980 IoConfigSchedulerCmd GetExecTimeMs: 5
+E 2015-09-08 10:52:56.981 CheckHWTreeConfigurationStatusRec found Backup of 1 Unconfigured! 7[1]
+I 2015-09-08 10:52:57.010 New I/O-connections configuration.
